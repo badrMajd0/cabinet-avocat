@@ -1,0 +1,102 @@
+.about-container {
+  display: flex;
+  padding: 30px;
+}
+.about-container .about-img {
+  text-align: center;
+  width: 40%;
+  margin-right: 20px;
+  z-index: 20;
+}
+.about-container .about-img img {
+  width: 500px;
+}
+
+.about-container .about-content .suptitle {
+  position: relative;
+  color: #ca9a67;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.about-container .about-content .suptitle::before {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background-color: #ca9a67;
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.about-container .about-content h2 {
+  font-size: 40px;
+  font-weight: 400px;
+  color: #151719;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.about-container .about-content p {
+  font-size: 18px;
+}
+
+.about-container .about-content h2 .selection {
+  color: #ca9a67;
+}
+
+.about-container .about-content .about-progress .single-progress {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.about-container
+  .about-content
+  .about-progress
+  .single-progress
+  .progress-img
+  img {
+  width: 50px;
+  margin-right: 30px;
+}
+
+.about-container .about-content h3 {
+  font-size: 25px;
+  color: #ca9a67;
+}
+
+.about-container .about-content .wrapper-singnature {
+  display: flex;
+  height: 80px;
+}
+
+.about-container .about-content .wrapper-singnature img {
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.about-container .about-content .wrapper-singnature .signature-content img {
+  height: 50px;
+}
+
+@media (max-width: 870px) {
+  .about-container {
+    flex-direction: column;
+  }
+  .about-img {
+    display: none;
+  }
+  .about-container .about-content {
+    display: block;
+    width: 100%;
+  }
+
+  .about-container .about-content h2 {
+    font-size: 35px;
+  }
+}

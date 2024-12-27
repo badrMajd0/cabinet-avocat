@@ -1,0 +1,128 @@
+.ptb-contact {
+  background-color: #f4f4f4;
+  color: #151719;
+  padding: 80px 200px;
+}
+
+.ptb-contact .container {
+  width: 100%;
+}
+
+.ptb-contact .container .suptitle {
+  color: #ca9a67;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.ptb-contact .container {
+  margin: 30px 0;
+  padding: 0;
+}
+
+.ptb-contact .container .suptitle::before {
+  content: "";
+  background-color: #ca9a67;
+  position: absolute;
+  top: 15px;
+  right: -60px;
+  width: 50px;
+  height: 1px;
+}
+
+.ptb-contact .container h2 {
+  font-size: 45px;
+  margin: 20px 0;
+}
+.ptb-contact .wrapper-booking {
+  display: flex;
+}
+
+.booking-form {
+  width: 200%;
+}
+
+.inputs-container {
+  display: flex;
+}
+
+.wrapper-input {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.wrapper-input input {
+  display: block;
+  margin: 20px 0;
+  width: 100%;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #ca9a67;
+  padding: 20px;
+  outline: none;
+  transition: 0.5s;
+}
+
+.booking-form .btn {
+  background-color: #ca9a67;
+  border-radius: 0;
+  color: #fff;
+  padding: 15px 30px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.booking-form .btn:hover {
+  background-color: #ccbd99;
+}
+
+.booking-working-hours {
+  width: 110%;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 36px -9px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 0px 36px -9px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 36px -9px rgba(0, 0, 0, 0.19);
+}
+
+input:hover {
+  background-color: #d2d2d2c5;
+}
+
+.booking-working-hours h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ca9a67;
+}
+.booking-working-hours p {
+  margin: 10px 0;
+}
+.wrapper-hours {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-hours .hours {
+  color: #ca9a67;
+}
+
+.table-hours .days {
+  color: #ca9a67;
+}
+
+@media (max-width: 870px) {
+  .ptb-contact {
+    padding: 0 30px;
+  }
+  .ptb-contact .wrapper-booking {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .booking-form {
+    width: 100%;
+  }
+
+  .booking-working-hours {
+    width: 90%;
+  }
+}
