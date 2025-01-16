@@ -4,11 +4,7 @@ import "./HomeGallery.css";
 const HomeGallery = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  const slides = [
-    "/images/slide3.jpg",
-    "/images/slide4.jpg",
-    "/images/slide1.jpg",
-  ];
+  const slides = ["/images/slide4.jpg", "/images/slide1.jpg"];
 
   const slideInterval = 5000;
 

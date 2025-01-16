@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faGavel } from "@fortawesome/free-solid-svg-icons";
 import "./Navbar.css";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -22,27 +22,22 @@ function Navbar() {
         <ul className="navbar-links">
           <li>
             <span>
-              <Link to="home">Accueil</Link>
+              <Link to="/">Accueil</Link>
             </span>
           </li>
           <li>
             <span>
-              <Link to="about">à propos</Link>
+              <Link to="/service">Nos Competences</Link>
             </span>
           </li>
           <li>
-            <span>
-              <Link to="service">Nos Competences</Link>
-            </span>
-          </li>
-          <li>
-            <Link to="contact">
+            <Link to="/contact">
               <span>Contactez-Nous</span>
             </Link>
           </li>
         </ul>
         <span className="btn-rendez-vous">
-          <Link to="contact">rendez-vous</Link>
+          <Link to="/contact">rendez-vous</Link>
         </span>
       </div>
     </nav>

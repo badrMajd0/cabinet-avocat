@@ -1,0 +1,35 @@
+.services-top {
+   color: #fff;
+   text-align: center;
+   position: relative;
+ }
+ 
+ .services-image {
+   background-image: url("/images/competencies.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 300px;
+ }
+ 
+ .services-top::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.325); /* Black with 50% opacity */
+ }
+ 
+ .services-content {
+   position: absolute;
+   top: 20%;
+   width: 100%;
+   margin: 10px auto;
+ }
+ 
+ .services-content p {
+   font-size: 20px;
+   width: 60%;
+   margin: 20px auto;
+ }

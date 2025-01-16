@@ -1,36 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import HeaderTop from "./components/Header/HeaderTop";
-import HomeGallery from "./components/HomeGallery/HomeGallery";
-import About from "./components/about/about";
-import Competences from "./components/Section/competences";
-import Experience from "./components/experience/experience";
-import Stats from "./components/countUp/countUp";
-import Clients from "./components/clients/clients";
 import Contact from "./components/contact/contact";
 import Footer from "./components/Footer/Footer";
-import { Element } from "react-scroll";
+import { Routes, Route } from "react-router-dom";
+import Accueil from "./pages/Accueil";
+import Services from "./pages/services";
+import { loadServices } from "./components/redux/servicesSlice";
+import { useDispatch } from "react-redux";
+import axios from "axios";
+import DetailService from "./components/Section/detailService";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    axios.get("/services.json").then((res) => {
+      dispatch(loadServices(res.data));
+    });
+  }, [dispatch]);
   return (
     <>
       <HeaderTop />
       <Navbar />
-      <Element name="home">
-        <HomeGallery />
-      </Element>
-      <Element name="about">
-        <About />
-      </Element>
-      <Element name="service">
-        <Competences />
-      </Element>
-      <Experience />
-      <Stats />
-      <Clients />
-      <Element name="contact">
-        <Contact />
-      </Element>
+      <Routes>
+        <Route path="/" element={<Accueil />} />
+        <Route path="/service" element={<Services />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/:title" element={<DetailService />} />
+      </Routes>
       <Footer />
     </>
   );

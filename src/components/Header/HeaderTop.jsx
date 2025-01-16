@@ -20,7 +20,7 @@ const HeaderTop = () => {
       <p className="first-info">
         <span>
           <a href="">
-            <FontAwesomeIcon icon={faPhone} className="icon" /> 0663 56 95 4{" "}
+            <FontAwesomeIcon icon={faPhone} className="icon" /> 06 00 02 02 02{" "}
           </a>
         </span>
         <span>
@@ -31,8 +31,7 @@ const HeaderTop = () => {
         </span>
         <span>
           <a href="">
-            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> Bd Med V,
-            Imm A N°507,Casablanca - Maroc
+            <FontAwesomeIcon icon={faMapMarkerAlt} className="icon" /> casablanca - Maroc
           </a>
         </span>
       </p>

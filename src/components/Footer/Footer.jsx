@@ -9,6 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 import { faFacebookF, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,10 +19,12 @@ const Footer = () => {
           Chacun De Nos Clients Bénéficie D’un Service Personnalisé, Courtois Et
           Professionnel.
         </p>
-        <button className="appointment-button">
-          <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> Réserver Un
-          Rendez-Vous
-        </button>
+        <Link to="/contact">
+          <button className="appointment-button">
+            <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> Réserver Un
+            Rendez-Vous
+          </button>
+        </Link>
       </div>
 
       <div className="footer-content">

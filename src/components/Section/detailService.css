@@ -1,0 +1,34 @@
+.detail-container {
+  background-color: #151515;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail-content {
+   margin: 50px;
+}
+
+.detail-service {
+   display: flex;
+   
+}
+
+.dtail-info {
+   margin-left: 40px;
+}
+
+.detail-service img {
+   width: 400px;
+   height: 300px;
+} 
+
+.dtail-info h4 {
+   width: 70%;
+   margin: 20px 0;
+}
+
+.dtail-info li {
+   font-size: 20px;
+}
