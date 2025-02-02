@@ -1,0 +1,158 @@
+[
+  {
+    "title": "Droit Commercial",
+    "description": "Offrant des conseils juridiques stratégiques pour les transactions commerciales.",
+    "image": "/images/1.jpeg",
+    "details": [
+      "Conseils en contrats commerciaux",
+      "Fusions et acquisitions",
+      "Conformité réglementaire",
+      "Négociation de partenariats",
+      "Gestion des litiges commerciaux",
+      "Conseils en droit de la concurrence"
+    ]
+  },
+  {
+    "title": "Droit de la Consommation",
+    "description": "Protection des droits des consommateurs et des pratiques commerciales.",
+    "image": "/images/2.jpeg",
+    "details": [
+      "Litiges consommateurs",
+      "Conformité aux normes de consommation",
+      "Résolution des réclamations",
+      "Conseils en publicité et marketing",
+      "Protection des données des consommateurs",
+      "Gestion des rappels de produits"
+    ]
+  },
+  {
+    "title": "Droit Bancaire",
+    "description": "Conseils sur les questions réglementaires et les transactions financières.",
+    "image": "/images/3.jpeg",
+    "details": [
+      "Conseils en régulation bancaire",
+      "Transactions financières complexes",
+      "Conformité anti-blanchiment",
+      "Gestion des risques financiers",
+      "Conseils en produits financiers",
+      "Litiges bancaires et financiers"
+    ]
+  },
+  {
+    "title": "Droit Pénal",
+    "description": "Défense et conseil dans les affaires pénales.",
+    "image": "/images/4.jpeg",
+    "details": [
+      "Défense en matière criminelle",
+      "Conseils en procédure pénale",
+      "Représentation devant les tribunaux",
+      "Défense des droits des accusés",
+      "Conseils en libération conditionnelle",
+      "Gestion des appels et recours"
+    ]
+  },
+  {
+    "title": "Droit de la Famille",
+    "description": "Gestion des affaires familiales, y compris le divorce et la garde des enfants.",
+    "image": "/images/5.jpeg",
+    "details": [
+      "Divorce et séparation",
+      "Garde des enfants",
+      "Successions et donations",
+      "Adoption et tutelle",
+      "Pensions alimentaires",
+      "Conseils en droit matrimonial"
+    ]
+  },
+  {
+    "title": "Droit des Transports",
+    "description": "Conseils sur les questions juridiques liées au transport et à la logistique.",
+    "image": "/images/6.jpeg",
+    "details": [
+      "Contrats de transport",
+      "Litiges en logistique",
+      "Conformité aux régulations internationales",
+      "Accidents et responsabilités",
+      "Conseils en assurance transport",
+      "Gestion des douanes et importations"
+    ]
+  },
+  {
+    "title": "Droit Fiscal",
+    "description": "Expertise en matière de fiscalité pour les entreprises et les particuliers.",
+    "image": "/images/7.jpeg",
+    "details": [
+      "Optimisation fiscale",
+      "Contentieux fiscal",
+      "Conseils en TVA et impôts",
+      "Déclarations fiscales",
+      "Audits fiscaux",
+      "Planification successorale"
+    ]
+  },
+  {
+    "title": "Droit du Travail",
+    "description": "Gestion des relations de travail et des litiges.",
+    "image": "/images/8.jpeg",
+    "details": [
+      "Contrats de travail",
+      "Litiges employeur-employé",
+      "Conseils en droit social",
+      "Négociations collectives",
+      "Licenciements et démissions",
+      "Santé et sécurité au travail"
+    ]
+  },
+  {
+    "title": "Droit Immobilier",
+    "description": "Conseils pour les transactions et litiges immobiliers.",
+    "image": "/images/9.jpeg",
+    "details": [
+      "Achat et vente immobilière",
+      "Litiges de propriété",
+      "Baux commerciaux et résidentiels",
+      "Urbanisme et permis de construire",
+      "Expertises immobilières",
+      "Gestion des copropriétés"
+    ]
+  },
+  {
+    "title": "Droit des Assurances",
+    "description": "Assistance dans les questions de couverture et de réclamations d'assurance.",
+    "image": "/images/10.jpeg",
+    "details": [
+      "Réclamations d'assurance",
+      "Conseils en contrats d'assurance",
+      "Litiges en assurance",
+      "Responsabilité civile",
+      "Assurance santé et prévoyance",
+      "Gestion des sinistres"
+    ]
+  },
+  {
+    "title": "Arbitrage",
+    "description": "Résolution des litiges par l'arbitrage.",
+    "image": "/images/11.jpeg",
+    "details": [
+      "Arbitrage commercial",
+      "Arbitrage international",
+      "Rédaction de clauses d'arbitrage",
+      "Conseils en médiation",
+      "Gestion des conflits contractuels",
+      "Exécution des sentences arbitrales"
+    ]
+  },
+  {
+    "title": "Propriété Intellectuelle et Industrielle",
+    "description": "Protection des droits de propriété intellectuelle et industrielle.",
+    "image": "/images/12.jpeg",
+    "details": [
+      "Dépôt de brevets",
+      "Protection des marques",
+      "Litiges en propriété intellectuelle",
+      "Droits d'auteur",
+      "Conseils en licences et transferts",
+      "Contrefaçon et piratage"
+    ]
+  }
+]
