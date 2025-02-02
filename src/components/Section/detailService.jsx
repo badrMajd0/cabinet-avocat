@@ -6,8 +6,6 @@ import './detailService.css'
 const DetailService = () => {
   const { title } = useParams();
   const { services } = useSelector((state) => state.services);
-  console.log(services);
-  console.log(title);
 
   return (
     <div className="detail-container">
