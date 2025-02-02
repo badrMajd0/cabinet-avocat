@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HeaderTop from "./components/Header/HeaderTop";
 import Contact from "./components/contact/contact";
 import Footer from "./components/Footer/Footer";
-import { Routes, Route } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import Accueil from "./pages/Accueil";
 import Services from "./pages/services";
 import { loadServices } from "./components/redux/servicesSlice";
@@ -13,11 +13,13 @@ import DetailService from "./components/Section/detailService";
 
 function App() {
   const dispatch = useDispatch();
+  const location = useLocation();
   useEffect(() => {
     axios.get("/services.json").then((res) => {
       dispatch(loadServices(res.data));
+      window.scrollTo(0, 0);
     });
-  }, [dispatch]);
+  }, [dispatch, location]);
   return (
     <>
       <HeaderTop />

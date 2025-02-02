@@ -2,6 +2,7 @@
   background-color: #f4f4f4;
   color: #151719;
   padding: 80px 200px;
+  scroll-snap-align: start;
 }
 
 .ptb-contact .container {

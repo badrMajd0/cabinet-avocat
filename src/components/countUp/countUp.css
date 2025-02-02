@@ -1,0 +1,43 @@
+/* styles.css */
+.stats {
+  background: url("/images/bg-counter.png") no-repeat center center/cover;
+  padding: 100px 0;
+  text-align: center;
+  color: white;
+  background-position: left bottom;
+  background-attachment: fixed;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stat-item {
+  margin: 0 10px;
+}
+
+.stat-item h2 {
+  font-size: 4rem;
+  margin: 0;
+}
+
+.stat-item p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+@media (max-width: 870px) {
+  .stats {
+    display: none;
+    padding: 0;
+  }
+  .stat-item {
+    width: 20%;
+    margin: 20px;
+  }
+}
