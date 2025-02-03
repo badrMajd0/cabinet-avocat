@@ -16,7 +16,7 @@ function Navbar() {
         </label>
         <div className="navbar-logo">
           <a href="/cabinet-avocat/">
-            <FontAwesomeIcon icon={faGavel} /> CABINET ALOUANE
+            <FontAwesomeIcon icon={faGavel} /> CABINET d'AVOCAT
           </a>
         </div>
         <ul className="navbar-links">

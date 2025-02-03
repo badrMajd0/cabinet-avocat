@@ -5,7 +5,7 @@ const About = () => {
     <>
       <div className="about-container">
         <div className="about-img">
-          <img src="images/aboutus.JPG" alt="" />
+          <img src="images/about.png" alt="" />
         </div>
         <div className="about-content">
           <span className="suptitle">à propos</span>
@@ -14,8 +14,8 @@ const About = () => {
             <span className="selection"> des Entreprises.</span>
           </h2>
           <p>
-            Le cabinet d’avocats Alouane, situé à Casablanca et dirigé par
-            Maître Sayame Alouane, avocate au barreau de Casablanca, est un
+            Notre cabinet d’avocats , situé à Casablanca et dirigé par
+            maitre X, avocat au barreau de Casablanca, est un
             conseiller juridique de confiance pour les entreprises et les
             particuliers. Spécialisé dans le conseil et le contentieux, il
             propose des services juridiques adaptés aux besoins spécifiques de
@@ -54,7 +54,7 @@ const About = () => {
           <div className="wrapper-singnature">
             <img src="images/aboutus.png" alt="" />
             <div className="signature-content">
-              <h3>Alouane Mohammed</h3>
+              <h3> Mohammed</h3>
               <img src="images/signature.png" alt="" />
             </div>
           </div>
