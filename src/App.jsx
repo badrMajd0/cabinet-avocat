@@ -15,7 +15,7 @@ function App() {
   const dispatch = useDispatch();
   const location = useLocation();
   useEffect(() => {
-    axios.get("/services.json").then((res) => {
+    axios.get("/cabinet-avocat/services.json").then((res) => {
       dispatch(loadServices(res.data));
       window.scrollTo(0, 0);
     });
@@ -25,10 +25,10 @@ function App() {
       <HeaderTop />
       <Navbar />
       <Routes>
-        <Route path="/" element={<Accueil />} />
-        <Route path="/service" element={<Services />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/:title" element={<DetailService />} />
+        <Route path="/cabinet-avocat" element={<Accueil />} />
+        <Route path="/cabinet-avocat/service" element={<Services />} />
+        <Route path="/cabinet-avocat/contact" element={<Contact />} />
+        <Route path="/cabinet-avocat/:title" element={<DetailService />} />
       </Routes>
       <Footer />
     </>

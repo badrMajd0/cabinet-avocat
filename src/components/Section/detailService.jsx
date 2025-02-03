@@ -5,6 +5,7 @@ import './detailService.css'
 
 const DetailService = () => {
   const { title } = useParams();
+  console.log(title)
   const { services } = useSelector((state) => state.services);
 
   return (

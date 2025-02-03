@@ -15,29 +15,29 @@ function Navbar() {
           </span>
         </label>
         <div className="navbar-logo">
-          <a href="/">
+          <a href="/cabinet-avocat/">
             <FontAwesomeIcon icon={faGavel} /> CABINET ALOUANE
           </a>
         </div>
         <ul className="navbar-links">
           <li>
             <span>
-              <Link to="/">Accueil</Link>
+              <Link to="/cabinet-avocat/">Accueil</Link>
             </span>
           </li>
           <li>
             <span>
-              <Link to="/service">Nos Competences</Link>
+              <Link to="/cabinet-avocat/service">Nos Competences</Link>
             </span>
           </li>
           <li>
-            <Link to="/contact">
+            <Link to="/cabinet-avocat/contact">
               <span>Contactez-Nous</span>
             </Link>
           </li>
         </ul>
         <span className="btn-rendez-vous">
-          <Link to="/contact">rendez-vous</Link>
+          <Link to="/cabinet-avocat/contact">rendez-vous</Link>
         </span>
       </div>
     </nav>

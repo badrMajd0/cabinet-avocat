@@ -19,7 +19,7 @@ const Footer = () => {
           Chacun De Nos Clients Bénéficie D’un Service Personnalisé, Courtois Et
           Professionnel.
         </p>
-        <Link to="/contact">
+        <Link to="/cabinet-avocat/contact">
           <button className="appointment-button">
             <FontAwesomeIcon icon={faPhone}></FontAwesomeIcon> Réserver Un
             Rendez-Vous
@@ -36,8 +36,8 @@ const Footer = () => {
             Sayame Alouane, notre cabinet incarne l'excellence et l'engagement
             dans la pratique du droit.
           </p>
-          <a href="/avocat-casablanca">Avocat Casablanca</a>
-          <a href="/avocat-divorce">Avocat Divorce</a>
+          <a href="/cabinet-avocat/avocat-casablanca">Avocat Casablanca</a>
+          <a href="/cabinet-avocat/avocat-divorce">Avocat Divorce</a>
         </div>
 
         <div className="footer-section">
